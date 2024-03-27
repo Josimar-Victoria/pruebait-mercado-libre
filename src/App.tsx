@@ -6,6 +6,7 @@ import SearchBox from "./components/SearchBox/SearchBox";
 import ProductDetail from "./pages/productDetail/ProductDetail";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import HomePage from "./pages/HomePage/HomePage";
+import Footer from "./components/footer/Footer";
 
 
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
          {/* Ruta para la página 404 */}
          <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };

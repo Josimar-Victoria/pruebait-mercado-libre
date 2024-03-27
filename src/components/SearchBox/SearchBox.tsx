@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom"; // Importa useNavigate en lugar de useHistory
 import useMercadoLibreAPI from "../../hooks/useMercadoLibreAPI"; // Importamos nuestro hook personalizado
+import Logo from '../../assets/Logo_ML.png'
 import './SearchBox.css'
 
 const SearchBox: React.FC = () => {
@@ -23,7 +24,7 @@ const SearchBox: React.FC = () => {
   return (
     <div className="search-box-container">
      <Link to='/'>
-     <img src='https://blog.saleslayer.com/hubfs/mercado-libre-logo.jpg' alt="Logo de la empresa" className="company-logo" />
+     <img src={Logo} alt="Logo de la empresa" className="company-logo" />
      </Link>
       <form onSubmit={handleSearch} className="search-form">
         <div className="input-container">

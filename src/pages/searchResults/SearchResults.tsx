@@ -22,7 +22,6 @@ const SearchResults: React.FC = () => {
     setLoadingMore(false);
   };
 
-  console.log(data);
 
   return (
     <div className="search-results">
