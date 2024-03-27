@@ -1,0 +1,22 @@
+.product-images{
+  max-width: 500px;
+  margin-left: 20px;
+  
+}
+
+/* Estilos para las flechas del carrusel */
+.slick-prev,
+.slick-next {
+  font-size: 20px; 
+  color: #ffffff; 
+  background-color: #ffe600; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+  line-height: 30px; 
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #333333;
+}
